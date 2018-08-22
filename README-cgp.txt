@@ -390,7 +390,7 @@ compute cluster. Therefore, another option allows to read only the required sequ
 Option 1: SQLITE
 ----------------
 
-Sequences and hints can be accessed using an SQLite database (in our experience the sqlite access runs more stabe than MySQL).
+Sequences and hints can be accessed using an SQLite database (in our experience the sqlite access runs more stable than MySQL).
 Other than the MySQL database that stores the full sequences, the SQLite database only stores
 file offsets to achieve random access to the genome files.
 
